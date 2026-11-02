@@ -1,0 +1,107 @@
+{
+  "groups": [
+    {
+      "name": "Test Automation",
+      "items": [
+        "Selenium WebDriver",
+        "Python",
+        "PyTest",
+        "Page Object Model",
+        "Automated Regression Testing",
+        "Test Script Development"
+      ]
+    },
+    {
+      "name": "API & Performance Testing",
+      "items": [
+        "REST API Testing",
+        "Postman",
+        "Request/Response Validation",
+        "HTTP Status Codes",
+        "API Integration Testing",
+        "Apache JMeter",
+        "Load Testing",
+        "Stress Testing",
+        "API Performance Testing",
+        "Response Time and Throughput Analysis"
+      ]
+    },
+    {
+      "name": "Software Testing",
+      "items": [
+        "Functional Testing",
+        "Manual Testing",
+        "Regression Testing",
+        "Integration Testing",
+        "End-to-End Testing",
+        "Cross-Browser Testing",
+        "Risk-Based Testing"
+      ]
+    },
+    {
+      "name": "Database Testing",
+      "items": [
+        "SQL",
+        "Backend Data Validation",
+        "Data Integrity Testing",
+        "Transaction Reconciliation",
+        "Data Consistency Checks"
+      ]
+    },
+    {
+      "name": "Test Planning & Defects",
+      "items": [
+        "Test Case Design",
+        "Test Scenario Development",
+        "Test Data Preparation",
+        "Requirements Traceability",
+        "Jira",
+        "Azure DevOps",
+        "Azure DevOps Test Plans",
+        "Defect Lifecycle Management",
+        "Severity and Priority Assessment",
+        "Defect Retesting",
+        "Root Cause Investigation"
+      ]
+    },
+    {
+      "name": "Payments & Banking",
+      "items": [
+        "UPI Transactions",
+        "Digital Wallets",
+        "Payment Processing",
+        "Transaction Reversals",
+        "Payment Failure Scenarios",
+        "Online Banking",
+        "Account Management",
+        "Fund Transfers",
+        "Loan Servicing",
+        "Bank Statements",
+        "Business Rules"
+      ]
+    },
+    {
+      "name": "AI-Assisted QA",
+      "items": [
+        "AI-Assisted Test Case Generation",
+        "AI Output Validation",
+        "Edge-Case Analysis",
+        "Incomplete-Input Testing"
+      ]
+    },
+    {
+      "name": "Agile & Release",
+      "items": [
+        "Agile/Scrum",
+        "Sprint Planning",
+        "Backlog Refinement",
+        "SDLC",
+        "STLC",
+        "Sprint Testing",
+        "Release Validation",
+        "QA Documentation",
+        "Cross-Functional Collaboration"
+      ]
+    }
+  ]
+}

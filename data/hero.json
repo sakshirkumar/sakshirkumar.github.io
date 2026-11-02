@@ -1,0 +1,46 @@
+{
+  "name": "Sakshi Rakesh Kumar",
+  "title": "Quality Assurance Engineer · Payments & Banking Test Automation",
+  "summary": "I'm a Quality Assurance professional with 4+ years of experience testing digital payment and banking applications across functional, regression, integration, API and performance testing. I automate regression suites with Selenium WebDriver, Python and PyTest, validate APIs and backend data with Postman and SQL, and load-test with JMeter. I work closely with developers in Agile/Scrum teams to catch defects early and ship reliable releases.",
+  "location": "Montreal, Canada",
+  "readouts": [
+    {
+      "value": "4+ yrs",
+      "label": "testing payment and banking apps"
+    },
+    {
+      "value": "~35%",
+      "label": "automation coverage at Cognizant"
+    },
+    {
+      "value": "~20%",
+      "label": "fewer recurring defects at Cognizant"
+    },
+    {
+      "value": "~30%",
+      "label": "more payment regression automation at Paytm"
+    }
+  ],
+  "ctas": [
+    {
+      "label": "View projects",
+      "href": "#projects",
+      "kind": "primary"
+    },
+    {
+      "label": "Resume",
+      "href": "assets/files/sakshi-kumar-resume.pdf",
+      "kind": "resume"
+    },
+    {
+      "label": "Get in touch",
+      "href": "#contact",
+      "kind": "secondary"
+    }
+  ],
+  "social": {
+    "github": "https://github.com/sakshirkumar",
+    "linkedin": "https://www.linkedin.com/in/sakshirkumar/",
+    "phone": "+1 4388663117"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "entries": [
+    {
+      "institution": "Concordia University",
+      "degree": "Masters",
+      "field": "Quality Systems",
+      "start": "Sep 2023",
+      "end": "May 2025"
+    },
+    {
+      "institution": "Mumbai University",
+      "degree": "Bachelors",
+      "field": "Computer Engineering",
+      "start": "Aug 2017",
+      "end": "May 2021"
+    }
+  ]
+}

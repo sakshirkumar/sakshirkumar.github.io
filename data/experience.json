@@ -1,0 +1,86 @@
+{
+  "roles": [
+    {
+      "company": "Cognizant",
+      "logo": "assets/images/logos/cognizant.png",
+      "title": "Quality Assurance Engineer",
+      "start": "June 2025",
+      "end": "Present",
+      "location": "Canada",
+      "description": "I design risk-based test scenarios for online banking applications covering account management, fund transfers and loan servicing. I also coordinate defect triage and release testing within a Scrum team.",
+      "highlights": [
+        "Automated prioritized regression scenarios with Selenium WebDriver, Python, PyTest and the Page Object Model in Azure DevOps pipelines, achieving approximately 35% automation coverage.",
+        "Executed end-to-end testing across web applications and backend services, contributing to an estimated 20% reduction in recurring defects through improved regression coverage.",
+        "Evaluated AI-assisted test case generation against business requirements and edge cases, reducing initial test scenario drafting effort by an estimated 25% where applicable.",
+        "Performance-tested key account and fund transfer REST APIs with Apache JMeter load and stress tests at expected peak volumes, reporting response-time, throughput and error-rate bottlenecks.",
+        "Validated REST APIs with Postman and SQL queries against account data and transaction postings, investigating data-mapping discrepancies between integrated components."
+      ],
+      "technologies": [
+        "Selenium WebDriver",
+        "Python",
+        "PyTest",
+        "Page Object Model",
+        "Azure DevOps",
+        "Azure DevOps Test Plans",
+        "Postman",
+        "SQL",
+        "REST APIs",
+        "Apache JMeter",
+        "Jira",
+        "Agile/Scrum"
+      ]
+    },
+    {
+      "company": "Paytm",
+      "logo": "assets/images/logos/paytm.svg",
+      "title": "Quality Assurance Analyst",
+      "start": "July 2021",
+      "end": "July 2023",
+      "location": "India",
+      "description": "Tested digital payment journeys involving UPI transactions, wallet operations and payment status updates across functional, integration and regression cycles.",
+      "highlights": [
+        "Automated repeatable web application test cases with Selenium WebDriver, Python and PyTest, increasing automation coverage of selected payment regression scenarios by approximately 30%.",
+        "Managed defects in Jira with reproduction steps, expected and actual results, severity and evidence, contributing to an estimated 20% reduction in defect clarification cycles.",
+        "Investigated failed payment scenarios by reproducing defects, reviewing logs and tracing transaction behavior across dependent services to help developers isolate root causes.",
+        "Verified REST API responses with Postman and SQL queries, comparing transaction records with expected results to investigate discrepancies with backend data.",
+        "Validated negative payment scenarios, including invalid inputs, interrupted transactions and error responses, to find inconsistencies affecting the customer payment experience."
+      ],
+      "technologies": [
+        "Selenium WebDriver",
+        "Python",
+        "PyTest",
+        "Postman",
+        "SQL",
+        "REST APIs",
+        "Jira",
+        "UPI",
+        "Digital wallets",
+        "Agile"
+      ]
+    },
+    {
+      "company": "CloudSphere IT Labs",
+      "logo": "assets/images/logos/cloudsphere-it-labs.svg",
+      "title": "Software Test Engineer",
+      "start": "July 2020",
+      "end": "June 2021",
+      "location": "India",
+      "description": "Prepared test cases from functional specifications for web-based applications and performed manual functional and regression testing after application changes.",
+      "highlights": [
+        "Executed approximately 100 test cases per release cycle across assigned modules, maintaining execution results and defect records.",
+        "Checked form submissions, input boundaries and session behavior across supported browsers, identifying compatibility and validation issues.",
+        "Supported API and database validation with Postman and basic SQL queries, checking service responses and persisted data beyond the user interface.",
+        "Retested resolved defects and performed targeted regression checks to catch unintended changes before release."
+      ],
+      "technologies": [
+        "Manual testing",
+        "Functional testing",
+        "Regression testing",
+        "Cross-browser testing",
+        "Postman",
+        "SQL",
+        "Jira"
+      ]
+    }
+  ]
+}

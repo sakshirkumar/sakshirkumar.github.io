@@ -1,0 +1,38 @@
+{
+  "paragraphs": [
+    "I test software where correctness matters most: online banking and digital payments. At Cognizant in Canada I design risk-based test scenarios for account management, fund transfers and loan servicing, and validate critical banking workflows before release.",
+    "My automation work uses Selenium WebDriver with Python, PyTest and the Page Object Model, run in Azure DevOps pipelines. It has reached approximately 35% automation coverage at Cognizant. It also contributed to an estimated 20% reduction in recurring defects through improved regression coverage.",
+    "Before that, at Paytm, I tested UPI transactions, wallet operations and payment status updates. I traced failed payments across dependent services and raised payment regression automation coverage by approximately 30%.",
+    "I also evaluate AI-assisted test case generation. Reviewing generated scenarios against business requirements and edge cases cut initial drafting effort by an estimated 25% where the workflow was applicable. I hold a Masters in Quality Systems from Concordia University."
+  ],
+  "highlights": [
+    {
+      "label": "Discipline",
+      "value": "Quality assurance & test automation"
+    },
+    {
+      "label": "Current employer",
+      "value": "Cognizant"
+    },
+    {
+      "label": "Base",
+      "value": "Montreal, Canada"
+    },
+    {
+      "label": "Experience",
+      "value": "4+ years"
+    },
+    {
+      "label": "Domains",
+      "value": "Digital payments and banking"
+    },
+    {
+      "label": "Degree",
+      "value": "Masters in Quality Systems, Concordia University"
+    },
+    {
+      "label": "Core stack",
+      "value": "Selenium, Python, PyTest, Postman, JMeter, SQL"
+    }
+  ]
+}

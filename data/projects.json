@@ -1,0 +1,239 @@
+{
+  "projects": [
+    {
+      "name": "Personality Prediction Project",
+      "category": "Machine learning",
+      "description": "A final year project on automated personality classification for e-recruitment. The system analyzes résumés and social media data to predict a candidate's personality, then recommends suitable job profiles.",
+      "highlights": [
+        "Predicts candidate personality from résumés and social media data",
+        "Recommends suitable job profiles from the predicted personality"
+      ],
+      "technologies": [
+        "PHP",
+        "Machine Learning"
+      ],
+      "links": {
+        "source": "https://github.com/sakshirkumar/Personality-Prediction-Project"
+      },
+      "image": "assets/images/projects/personality-prediction-project.svg",
+      "featured": true,
+      "hero": {
+        "src": "assets/images/projects/personality-prediction-project-hero.jpg",
+        "alt": "Personality Prediction Project — Concept render",
+        "caption": "Concept render"
+      }
+    },
+    {
+      "name": "injectbench",
+      "category": "AI evaluation",
+      "description": "A prompt-injection evaluation harness that reports attack success rate per attack class with Wilson 95% intervals. It uses ablation to measure which guardrail layers actually reduce attack success relative to the latency they add.",
+      "highlights": [
+        "Five-class attack taxonomy, 400 seeded trials per class (2,000 total)",
+        "Flags a redundant guardrail layer: 0 of 2000 trials flipped, at an 11 ms cost",
+        "44 tests in about 2 s; regression_check usable as a CI gate"
+      ],
+      "technologies": [
+        "Python",
+        "Statistics",
+        "JavaScript",
+        "Node.js",
+        "GitHub Actions",
+        "GitHub Pages"
+      ],
+      "links": {
+        "source": "https://github.com/sakshirkumar/injectbench",
+        "demo": "https://sakshirkumar.github.io/injectbench/"
+      },
+      "image": "assets/images/projects/injectbench.svg",
+      "hero": {
+        "src": "assets/images/projects/injectbench-hero.jpg",
+        "alt": "injectbench — Concept render",
+        "caption": "Concept render"
+      }
+    },
+    {
+      "name": "fieldextract",
+      "category": "Document AI",
+      "description": "Document field extraction with per-field calibrated confidence. Each field is routed to human review at a cost-optimal threshold, so operations teams know which fields need a human. It runs on a seeded simulated extractor.",
+      "highlights": [
+        "ECE cut from 0.0290 to 0.0048 (6.0x lower) after per-field isotonic calibration",
+        "Per-field routing costs 1.78x less than one global threshold for the same 4,817 reviews",
+        "0 planted PII strings leaked after redaction across 500 docs; 51 tests"
+      ],
+      "technologies": [
+        "Python",
+        "Isotonic calibration",
+        "Platt scaling",
+        "JavaScript",
+        "GitHub Actions",
+        "GitHub Pages"
+      ],
+      "links": {
+        "source": "https://github.com/sakshirkumar/fieldextract",
+        "demo": "https://sakshirkumar.github.io/fieldextract/"
+      },
+      "image": "assets/images/projects/fieldextract.svg",
+      "hero": {
+        "src": "assets/images/projects/fieldextract-hero.jpg",
+        "alt": "fieldextract — Concept render",
+        "caption": "Concept render"
+      }
+    },
+    {
+      "name": "sigmaforge",
+      "category": "Security tooling",
+      "description": "A Sigma detection-rule compiler that parses rules into a typed expression tree. It renders the tree as Splunk SPL, Elastic EQL, Microsoft KQL and SQLite SQL. The SQL backend is checked against a reference evaluator with property-based differential tests.",
+      "highlights": [
+        "Compiles one backend-neutral tree to four query targets",
+        "684 tests with mypy --strict and a coverage gate",
+        "Rules a target cannot express are rejected with a stated reason"
+      ],
+      "technologies": [
+        "Python 3.12",
+        "SQLite",
+        "YAML",
+        "Splunk SPL",
+        "Elastic EQL",
+        "Microsoft KQL",
+        "mypy",
+        "uv"
+      ],
+      "links": {
+        "source": "https://github.com/sakshirkumar/sigmaforge"
+      },
+      "image": "assets/images/projects/sigmaforge.svg",
+      "hero": {
+        "src": "assets/images/projects/sigmaforge-hero.jpg",
+        "alt": "sigmaforge — Concept render",
+        "caption": "Concept render"
+      }
+    },
+    {
+      "name": "reachable",
+      "category": "Security testing",
+      "description": "A CVE triage tool that checks static call-graph reachability from entry points to the vulnerable function. Each finding is reported as reachable, not-reachable or indeterminate, and the tool never reports a silent 'safe'.",
+      "highlights": [
+        "Demo app: 2 reachable, 1 indeterminate, 5 not reachable advisories",
+        "One added getattr() turns all not-reachable verdicts into indeterminate",
+        "CI gate and SARIF 2.1.0 output; standard library only"
+      ],
+      "technologies": [
+        "Python",
+        "ast",
+        "SARIF",
+        "GitHub Actions"
+      ],
+      "links": {
+        "source": "https://github.com/sakshirkumar/reachable"
+      },
+      "image": "assets/images/projects/reachable.svg",
+      "hero": {
+        "src": "assets/images/projects/reachable-hero.jpg",
+        "alt": "reachable — Concept render",
+        "caption": "Concept render"
+      }
+    },
+    {
+      "name": "lineagelens",
+      "category": "Data quality",
+      "description": "A column-level SQL lineage and impact analysis tool. It resolves SELECT *, CTEs and UNIONs to show exactly which downstream columns and dashboards break when a source column changes.",
+      "highlights": [
+        "10 models touch orders, but only 6 columns and 4 of 5 dashboards read discount_pct",
+        "Unexpandable stars are surfaced as unresolved, never silently dropped",
+        "18 tests plus Node.js tests for the browser demo"
+      ],
+      "technologies": [
+        "Python",
+        "SQL",
+        "JavaScript",
+        "Node.js",
+        "Mermaid",
+        "GitHub Pages"
+      ],
+      "links": {
+        "source": "https://github.com/sakshirkumar/lineagelens",
+        "demo": "https://sakshirkumar.github.io/lineagelens/"
+      },
+      "image": "assets/images/projects/lineagelens.svg",
+      "hero": {
+        "src": "assets/images/projects/lineagelens-hero.jpg",
+        "alt": "lineagelens — Concept render",
+        "caption": "Concept render"
+      }
+    },
+    {
+      "name": "p2pexceptions",
+      "category": "Process analytics",
+      "description": "Procure-to-pay invoice exception analysis that classifies each failed three-way match into one cause from a mutually exclusive, exhaustive taxonomy. The classifier is validated against labelled cases, and causes are ranked in a cost-weighted Pareto.",
+      "highlights": [
+        "400,000 synthetic invoice lines, 72,739 failing three-way match (18.2%)",
+        "99.6% agreement with a labelled sample of 800; 0.00% unclassified",
+        "24 tests covering each precedence rule"
+      ],
+      "technologies": [
+        "Python",
+        "unittest",
+        "GitHub Actions"
+      ],
+      "links": {
+        "source": "https://github.com/sakshirkumar/p2pexceptions"
+      },
+      "image": "assets/images/projects/p2pexceptions.svg",
+      "hero": {
+        "src": "assets/images/projects/p2pexceptions-hero.jpg",
+        "alt": "p2pexceptions — Concept render",
+        "caption": "Concept render"
+      }
+    },
+    {
+      "name": "cuped",
+      "category": "Experimentation",
+      "description": "A CUPED variance-reduction library for A/B tests that refuses covariates measured after randomisation. Its validation gate tests that bias case explicitly, using a balance check across arms.",
+      "highlights": [
+        "38.7% of variance removed; interval width 0.848 to 0.664",
+        "Gate rejects a post-treatment covariate that returned -6.601 against a true 1.80"
+      ],
+      "technologies": [
+        "Python",
+        "Statistics",
+        "unittest",
+        "GitHub Actions"
+      ],
+      "links": {
+        "source": "https://github.com/sakshirkumar/cuped"
+      },
+      "image": "assets/images/projects/cuped.svg",
+      "hero": {
+        "src": "assets/images/projects/cuped-hero.jpg",
+        "alt": "cuped — Concept render",
+        "caption": "Concept render"
+      }
+    },
+    {
+      "name": "controlmap",
+      "category": "Compliance automation",
+      "description": "SOC 2 evidence automation that collects exports from GitHub, AWS, identity and HR systems and evaluates YAML controls against them. Controls are mapped to SOC 2 criteria, and the tool builds a hashed evidence package an auditor can verify.",
+      "highlights": [
+        "6 built-in collectors and 22 built-in rules",
+        "Library validated against 61 TSC criteria ids and 93 Annex A controls",
+        "Evidence package checkable with shasum, with an optional Ed25519 signature"
+      ],
+      "technologies": [
+        "Python",
+        "YAML",
+        "SHA-256",
+        "Ed25519",
+        "GitHub Actions"
+      ],
+      "links": {
+        "source": "https://github.com/sakshirkumar/controlmap"
+      },
+      "image": "assets/images/projects/controlmap.svg",
+      "hero": {
+        "src": "assets/images/projects/controlmap-hero.jpg",
+        "alt": "controlmap — Concept render",
+        "caption": "Concept render"
+      }
+    }
+  ]
+}
